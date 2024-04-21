@@ -20,9 +20,11 @@ def randomletters():
 # Lines of code to make both random numbers and letters
 
 def both_numbers_letters_generator(length=1):
-    letters = 'abcdefghijklmnopqrstuvwxyz'
-    return ''.join(random.choice(letters) for _ in range(length))
-    number = random.randint(1, 1000)
-    print(number)
+    numbers = randomnumber(length)
+    letters = randomletters(length)
+    return {'numbers': numbers, 'letters': letters}
 def both():
-    carrot.both_numbers_letters_generator()
+    length = 5
+    result = carrot.both_numbers_letters_generator(length)
+    print(result["numbers"])
+    print(result["letters"])
