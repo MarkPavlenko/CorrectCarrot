@@ -20,8 +20,8 @@ def randomletters():
 # Lines of code to make both random numbers and letters
 
 def both_numbers_letters_generator(length=1):
-    numbers = random.randint(1, 1000)  # Generate a single random number
-    letters = ''.join(random.choice('abcdefghijklmnopqrstuvwxyz') for _ in range(length))  # Generate random letters
+    numbers = random.randint(1, 1000) 
+    letters = ''.join(random.choice('abcdefghijklmnopqrstuvwxyz') for _ in range(length))
     return {'numbers': numbers, 'letters': letters}
 
 def both(length=1):
