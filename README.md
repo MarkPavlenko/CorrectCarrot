@@ -7,7 +7,7 @@ Carrot is a module for Python also know as RandomCarrot.
 Use the package manager [pip](https://pip.pypa.io/en/stable/) to install Carrot.
 
 ```bash
-pip install RandomCarrot
+pip install dist/RandomCarrot-1.0-py3-none-any.whl
 ```
 
 ## Usage
