@@ -16,3 +16,13 @@ def random_letters_generator(length=1):
 
 def randomletters():
     carrot.random_letters_generator()
+
+# Lines of code to make both random numbers and letters
+
+def both_numbers_letters_generator(length=1):
+    letters = 'abcdefghijklmnopqrstuvwxyz'
+    return ''.join(random.choice(letters) for _ in range(length))
+    number = random.randint(1, 1000)
+    print(number)
+def both():
+    carrot.both_numbers_letters_generator()
