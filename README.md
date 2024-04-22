@@ -14,7 +14,7 @@ pip install RandomCarrot
 
 Importing is very easy in Carrot. All you need to do is type: 
  ```Python
-import carrot
+import RandomCarrot as carrot
 ```
 To display random numbers type:
  ```Python
