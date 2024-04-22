@@ -6,7 +6,7 @@ setup(
     packages=find_packages(),
     author='Mark Pavlenko',
     author_email='markpavlenkos@icloud.com',
-    description='RandomCarrot is a module for Python that can generate random numbers, letters or something else.',
+    description='RandomCarrot can easily generate random numbers, letters and even both together! Easy to use, easy to import!',
     long_description=open('README.md').read(),
     long_description_content_type='text/markdown',
     url='https://github.com/MarkPavlenko/RandomCarrot',
