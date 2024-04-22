@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='RandomCarrot',
-    version='1.0-stable',
+    version='1.0',
     packages=find_packages(),
     author='Mark Pavlenko',
     author_email='markpavlenkos@icloud.com',

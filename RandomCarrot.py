@@ -1,5 +1,5 @@
 import random
-import carrot
+import RandomCarrot as carrot
 
 # Lines of code to display random numbers
 def random_number_generator():
