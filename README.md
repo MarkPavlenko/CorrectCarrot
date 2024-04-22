@@ -1,6 +1,6 @@
 # RandomCarrot (Carrot)
 
-Carrot is a module for Python also know as RandomCarrot.
+Carrot is a module for Python also known as RandomCarrot.
 
 ## Installation
 
